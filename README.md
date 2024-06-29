@@ -18,7 +18,8 @@ The objective of this competition is to create a machine learning model to predi
 
 ## Our Repository ...
 
-... contains... 
+... is still under construction.  
+... but feel free to take a look at our previous work. 
 
 ---
 
@@ -77,27 +78,3 @@ Or ....
     ```Bash
     python.exe -m pip install --upgrade pip
     ```
-
-
-   
-## Usage
-
-In order to train the model and store test data in the data folder and the model in models run:
-
-**`Note`**: Make sure your environment is activated.
-
-```bash
-python example_files/train.py  
-```
-
-In order to test that predict works on a test set you created run:
-
-```bash
-python example_files/predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
-```
-
-## Limitations
-
-Development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible.
-
-
